@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "169483559398",
+    "project_id": "antrun-game",
+    "storage_bucket": "antrun-game.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169483559398:android:0dd4dc4b0d6505a1db3627",
+        "android_client_info": {
+          "package_name": "com.example.ant_run"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-B8d12QF9l9JokB4pz2670MTrWlwEPFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
