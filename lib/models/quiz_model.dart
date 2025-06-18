@@ -56,6 +56,47 @@ class QuizDatabase {
         difficulty: 2,
         category: '주식',
       ),
+     QuizModel(
+    id: 'stock_02',
+    question: 'PBR이 1보다 낮다는 것은 무엇을 의미하나요?',
+    options: [
+      '회사가 고평가됨',
+      '회사의 자산 대비 저평가됨',
+      '배당이 많음',
+      '성장성이 매우 높음'
+    ],
+    correctAnswerIndex: 1,
+    explanation: 'PBR이 1보다 낮으면 자산 가치보다 낮은 주가로 거래되고 있다는 의미로, 저평가 가능성이 있습니다.',
+    difficulty: 2,
+    category: '주식',
+  ),
+   QuizModel(
+  id: 'stock_03',
+  question: 'ROE(Return on Equity)는 어떤 지표인가요?',
+  options: ['자기자본 대비 수익률', '총자산 수익률', '부채 비율', '영업이익률'],
+  correctAnswerIndex: 1,
+  explanation: '정답은 1번: 자기자본 대비 수익률. ROE는 자기자본 대비 순이익의 비율로, 기업의 수익성을 나타내는 중요한 지표입니다.',
+  difficulty: 2,
+  category: '주식',
+),
+   QuizModel(
+  id: 'stock_04',
+  question: '주당순이익(EPS)은 무엇을 의미하나요?',
+  options: ['순이익 ÷ 주식수', '매출 ÷ 주식수', '배당금 ÷ 주식수', '영업이익 ÷ 주식수'],
+  correctAnswerIndex: 1,
+  explanation: '정답은 1번: 순이익 ÷ 주식수. EPS는 순이익을 발행 주식 수로 나눈 값으로, 1주당 벌어들인 이익을 의미합니다.',
+  difficulty: 2,
+  category: '주식',
+),
+   QuizModel(
+  id: 'stock_05',
+  question: '배당수익률이 높다는 것은 일반적으로 어떤 의미인가요?',
+  options: ['고배당 또는 저주가', '주가 상승 가능성', '성장 기대', '리스크 없음'],
+  correctAnswerIndex: 1,
+  explanation: '정답은 1번: 고배당 또는 저주가. 배당수익률은 배당금 ÷ 주가로 계산되며, 고배당 혹은 주가가 낮은 경우 높게 나타납니다.',
+  difficulty: 1,
+  category: '주식',
+),
 
       // 채권 관련 퀴즈
       QuizModel(
@@ -72,6 +113,37 @@ class QuizDatabase {
         difficulty: 1,
         category: '채권',
       ),
+
+     QuizModel(
+  id: 'bond_02',
+  question: '채권의 표면이자율이란?',
+  options: ['액면가 기준 연간 이자율', '시장가 기준 이자율', '할인율', '실질 수익률'],
+  correctAnswerIndex: 1,
+  explanation: '정답은 1번: 액면가 기준 연간 이자율. 표면이자율은 액면가에 대해 지급되는 연간 이자의 비율입니다.',
+  difficulty: 1,
+  category: '채권',
+),
+
+QuizModel(
+  id: 'bond_03',
+  question: '듀레이션이 길수록 어떤 특징이 있나요?',
+  options: ['이자 수익이 낮음', '금리 변화에 민감함', '만기가 짧다', '리스크가 낮다'],
+  correctAnswerIndex: 2,
+  explanation: '정답은 2번: 금리 변화에 민감함. 듀레이션은 채권 가격의 금리 민감도를 나타내며, 길수록 금리 변동에 민감합니다.',
+  difficulty: 1,
+  category: '채권',
+),
+
+QuizModel(
+  id: 'bond_04',
+  question: '정크본드는 어떤 채권인가요?',
+  options: ['신용등급이 낮은 고위험 채권', '정부가 발행하는 채권', '만기 없는 채권', '우량 등급 채권'],
+  correctAnswerIndex: 1,
+  explanation: '정답은 1번: 신용등급이 낮은 고위험 채권. 정크본드는 신용등급이 낮아 위험이 크지만 수익률이 높은 채권입니다.',
+  difficulty: 1,
+  category: '채권',
+),
+
 
       // 암호화폐 관련 퀴즈
       QuizModel(
